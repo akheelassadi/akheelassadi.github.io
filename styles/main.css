@@ -1,0 +1,240 @@
+.wrapper {
+    width: 1280px;
+    margin: auto;
+}
+
+.navbar {
+    padding: 12px 0px;
+}
+
+* {
+    font-family: 'Comfortaa', cursive;
+}
+
+#company-features {
+    background-color: #5755d9;
+    padding:24px;
+}
+
+#what-we-do {
+    color: black;
+    padding: 12px 24px;
+    font-family: 'Paytone One', sans-serif;
+}
+
+#about {
+    padding: 24px 0px;
+    background-color: #f7f8f9;
+}
+
+#unit-size {
+    padding: 24px 0px;
+}
+
+#size-of-the-unit {
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;
+}
+
+#unit-size-desc {
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 12px;
+    padding-bottom: 12px; 
+    font-size: 14px;
+    text-align: center;
+}
+
+.about-company {
+    color: #585858;
+    opacity: 0.75;
+    padding: 0px 24px;
+    font-size: 14px;
+}
+
+.thickness-icon, .quality-icon, .strength-icon {
+    width: 23%
+}
+
+.infrastructure {
+    background-color: grey;
+    text-align: center;
+    display: inline-block
+}
+
+#logo {
+    height: 32px;
+    vertical-align: middle;
+}
+
+#carousel-container {
+    padding-left: 34px;
+}
+
+.carousel-image-container {
+    height: 380px !important;
+    border: 6px solid white;
+    background-color: black;
+    margin: 12px 34px 24px 34px;
+    box-shadow: 0 0.25rem 1rem rgba(48,55,66,.15);
+}
+
+.carousel-wrapper {
+    position: relative;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#unit-icon {
+    height: 76px;
+    margin: auto;
+    display: block;
+    padding-bottom: 24px;
+}
+
+#product-details {
+    padding: 24px 0px;
+    background: url("../images/light-paper-fibers.png");
+    background-color: #000000;
+}
+
+#product-title {
+    color: white;
+    padding: 12px 24px 8px 24px;
+    margin: 0px; 
+    font-family: 'Paytone One', sans-serif;
+}
+
+#product-desc {
+    padding: 0px 24px;
+    color: #cccccc;
+}
+
+#features {
+    font-family: 'Paytone One', sans-serif;
+    padding: 0px 24px;
+    color:white;
+}
+
+a,a:visited {
+    color: #585858 !important;
+}
+
+.carousel {
+    background: transparent;
+}
+
+.slick-prev {
+    left: 0px;
+}
+
+.slick-next {
+    right: 0px;
+}
+
+.slick-dots {
+    bottom: -6px;
+}
+
+.slick-prev:before, .slick-next:before{
+    color:#b96f1d;
+}
+
+.pd-carousel-image-container {
+    border: 6px solid #ffffff;
+    background-color: #ffffff;
+    margin-right: 12px; 
+}
+
+#pd-carousel > .slick-list {
+    margin-left: 32px;
+    margin-right: 24px;
+}
+
+#product-features {
+    padding: 24px 0px;
+}
+
+#product-feature-title {
+    color: black;
+    padding: 12px 24px 24px 24px;
+    margin: 0px; 
+    font-family: 'Paytone One', sans-serif;
+}
+
+.product-feature-desc {
+    font-size: 14px;
+    margin-left: 46px;
+    position: relative;
+}
+
+.product-feature-desc > span {
+    position: absolute;
+    left: -4%;
+    padding-top: 2px;
+}
+
+.round-button-icon {
+    height: 15px;
+}
+
+.slick-slide img {
+    height: 100%;
+    margin: auto;
+    object-fit: fill;
+}
+
+#quality-control {
+    padding: 24px 0px;
+}
+
+#quality-control-title {
+    color: black;
+    padding: 12px 24px 8px 24px;
+    margin: 0px; 
+    font-family: 'Paytone One', sans-serif;
+}
+
+.quality-control-points {
+    min-height: 1em;
+    color: gray;
+    padding: 0px 24px;
+  }
+
+  .circle {
+    background: gray;
+    position: relative;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    border-radius: 100%;
+    color: #fff;
+    text-align: center;
+  }
+
+  .circle:after {
+    content: ' ';
+    position: absolute;
+    display: block;
+    top: 1px;
+    right: 50%;
+    bottom: 1px;
+    left: 50%;
+    height: 100%;
+    width: 1px;
+    transform: scale(1, 2);
+    transform-origin: 50% -100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: -1;
+  }
+
+  .circle3 {
+    background: gray;
+    position: relative;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    border-radius: 100%;
+    color: #fff;
+    text-align: center;
+  }

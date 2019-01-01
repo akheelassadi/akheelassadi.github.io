@@ -3,6 +3,10 @@
     margin: auto;
 }
 
+header {
+    background: #1d1d1d;
+}
+
 .navbar {
     padding: 12px 0px;
 }
@@ -17,23 +21,27 @@
 }
 
 #what-we-do {
-    color: black;
+    color: #db882b;
     padding: 12px 24px;
     font-family: 'Paytone One', sans-serif;
 }
 
 #about {
     padding: 24px 0px;
-    background-color: #f7f8f9;
+    background: url(../images/3px-tile.png);
+    background-color: #000000;
 }
 
 #unit-size {
     padding: 24px 0px;
+    background: url(../images/3px-tile.png);
+    background-color: #1b1b1b;
 }
 
 #size-of-the-unit {
     text-align: center;
     font-family: 'Paytone One', sans-serif;
+    color: #db882b;
 }
 
 #unit-size-desc {
@@ -43,10 +51,11 @@
     padding-bottom: 12px; 
     font-size: 14px;
     text-align: center;
+    color: white;
 }
 
 .about-company {
-    color: #585858;
+    color: #ffffff;
     opacity: 0.75;
     padding: 0px 24px;
     font-size: 14px;
@@ -73,7 +82,7 @@
 
 .carousel-image-container {
     height: 380px !important;
-    border: 6px solid white;
+    border: 6px solid #db882b;
     background-color: black;
     margin: 12px 34px 24px 34px;
     box-shadow: 0 0.25rem 1rem rgba(48,55,66,.15);
@@ -94,12 +103,12 @@
 
 #product-details {
     padding: 24px 0px;
-    background: url("../images/light-paper-fibers.png");
+    background: url(../images/batthern.png);
     background-color: #000000;
 }
 
 #product-title {
-    color: white;
+    color: #db882b;
     padding: 12px 24px 8px 24px;
     margin: 0px; 
     font-family: 'Paytone One', sans-serif;
@@ -113,11 +122,12 @@
 #features {
     font-family: 'Paytone One', sans-serif;
     padding: 0px 24px;
-    color:white;
+    color:#db882b;
 }
 
 a,a:visited {
-    color: #585858 !important;
+    color: #ffffff !important;
+    font-weight: 700;
 }
 
 .carousel {
@@ -126,6 +136,7 @@ a,a:visited {
 
 .slick-prev {
     left: 0px;
+    z-index: 999;
 }
 
 .slick-next {
@@ -137,11 +148,11 @@ a,a:visited {
 }
 
 .slick-prev:before, .slick-next:before{
-    color:#b96f1d;
+    color:#ffffff;
 }
 
 .pd-carousel-image-container {
-    border: 6px solid #ffffff;
+    border: 6px solid #db882b;
     background-color: #ffffff;
     margin-right: 12px; 
 }
@@ -153,6 +164,7 @@ a,a:visited {
 
 #product-features {
     padding: 24px 0px;
+    background-color: #db882b;
 }
 
 #product-feature-title {
@@ -166,6 +178,7 @@ a,a:visited {
     font-size: 14px;
     margin-left: 46px;
     position: relative;
+    color: black;
 }
 
 .product-feature-desc > span {
@@ -186,23 +199,109 @@ a,a:visited {
 
 #quality-control {
     padding: 24px 0px;
+    background: url(../images/3px-tile.png);
+    background-color: #1b1b1b;
 }
 
 #quality-control-title {
-    color: black;
-    padding: 12px 24px 8px 24px;
+    color: #db882b;
+    padding: 12px 24px 12px 24px;
     margin: 0px; 
     font-family: 'Paytone One', sans-serif;
 }
 
 .quality-control-points {
-    min-height: 1em;
-    color: gray;
-    padding: 0px 24px;
+    color: #a9a9a9;
+    line-height: normal;
+    margin-bottom: 8px;
   }
 
+  #quality-control-equipments-title {
+    padding: 24px;
+    margin: 0px;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 3.2px;
+  }
+
+  .equipment-images {
+    margin: 12px 34px 24px 34px;
+  }
+
+  .figure {
+    background: #fff;
+    margin: 0px;
+    overflow: hidden;
+    box-shadow: 0 0.25rem 1rem rgba(48,55,66,.15);
+    border: 6px solid #db882b;
+  }
+
+  .figure > div {
+      height: 240px;
+      position: relative;
+      padding: 8px;
+  }
+
+  .figure > div > img {
+    max-height: 240px;
+    max-width: 200px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .figure-caption {
+    margin: 0px;
+    padding: 8px;
+    color: white;
+    background: #000000;
+  }
+
+  .figure .figure-caption {
+    max-height: 40px;
+  }
+
+  .equipment-label {
+      font-weight: 300;
+      color: white !important;
+  }
+  /* -------------------------------------------------------------------------
+  VERTICAL STEPPERS
+-------------------------------------------------------------------------- */
+
+/* Steps */
+.my-step {
+    position: relative;
+    min-height: 1em;
+    color: gray;
+    margin: 0px 24px;
+  }
+  .my-step + .my-step {
+    margin-top: 1.5em
+  }
+  .my-step > div:first-child {
+    position: static;
+    height: 0;
+  }
+  .my-step > div:not(:first-child) {
+    margin-left: 1.5em;
+    padding-left: 1em;
+  }
+  .my-step.step-active {
+    color: #4285f4
+  }
+  .my-step.step-active .circle {
+    background-color: #4285f4;
+  }
+  
+  /* Circle */
   .circle {
-    background: gray;
+    background: #000000;
     position: relative;
     width: 1.5em;
     height: 1.5em;
@@ -210,8 +309,10 @@ a,a:visited {
     border-radius: 100%;
     color: #fff;
     text-align: center;
+    box-shadow: 0 0 0 3px #fff;
   }
-
+  
+  /* Vertical Line */
   .circle:after {
     content: ' ';
     position: absolute;
@@ -221,20 +322,74 @@ a,a:visited {
     bottom: 1px;
     left: 50%;
     height: 100%;
-    width: 1px;
+    width: 2px;
     transform: scale(1, 2);
     transform-origin: 50% -100%;
-    background-color: rgba(0, 0, 0, 0.25);
-    z-index: -1;
+    background-color: rgb(219, 136, 43);
   }
 
-  .circle3 {
-    background: gray;
-    position: relative;
-    width: 1.5em;
-    height: 1.5em;
+  .my-step:last-child .circle:after {
+    display: none;
+  }
+
+  /* Stepper Titles */
+  .title {
     line-height: 1.5em;
-    border-radius: 100%;
-    color: #fff;
+  }
+
+  #machinery-details {
+    padding: 24px 0px;
+    background: url(../images/3px-tile.png);
+    background-color: #000000;
+  }
+
+  #machinery-details-title {
+    color: #e08b2c;
+    padding: 12px 24px 8px 24px;
+    margin: 0px; 
+    font-family: 'Paytone One', sans-serif;
     text-align: center;
   }
+
+  .machinery-details-table {
+    padding: 12px 24px 24px 24px;
+  }
+
+  th {
+    color: #e08b2c;
+}
+
+.active {
+    background: #33333380 !important;
+}
+
+.table.table-hover tbody tr:hover {
+    background: #1b1b1b;
+}
+
+.active > td {
+    color: white !important;
+}
+
+td {
+    color:white !important;
+}
+
+.table td, .table th {
+    border-bottom: .05rem solid #4c4c4c;
+    padding: .6rem .4rem;
+}
+
+.table th {
+    border-bottom-width: .1rem;
+}
+
+#green-works-title {
+    padding: 24px;
+    margin: 0px;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 33px;
+    color: #00a006;
+    text-align: center;
+}
+

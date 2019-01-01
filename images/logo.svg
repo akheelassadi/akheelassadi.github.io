@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 48 48" xml:space="preserve">
-    <path d="M24 10c7.72 0 14 6.28 14 14s-6.28 14-14 14-14-6.28-14-14 6.28-14 14-14m0-6C12.955 4 4 12.955 4 24s8.955 20 20 20 20-8.955 20-20S35.045 4 24 4z" fill="#a2a2a2"/>
-    <path d="M24 12c6.617 0 12 5.383 12 12s-5.383 12-12 12-12-5.383-12-12 5.383-12 12-12m0-4C15.164 8 8 15.164 8 24s7.164 16 16 16 16-7.164 16-16S32.836 8 24 8z" fill="#000000"/>
+    <path d="M24 10c7.72 0 14 6.28 14 14s-6.28 14-14 14-14-6.28-14-14 6.28-14 14-14m0-6C12.955 4 4 12.955 4 24s8.955 20 20 20 20-8.955 20-20S35.045 4 24 4z" fill="#db882b"/>
+    <path d="M24 12c6.617 0 12 5.383 12 12s-5.383 12-12 12-12-5.383-12-12 5.383-12 12-12m0-4C15.164 8 8 15.164 8 24s7.164 16 16 16 16-7.164 16-16S32.836 8 24 8z" fill="#9e5d13"/>
     <metadata>
         <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
             <rdf:Description about="https://iconscout.com/legal#licenses" dc:title="cortana" dc:description="cortana" dc:publisher="Iconscout" dc:date="2017-12-15" dc:format="image/svg+xml" dc:language="en">

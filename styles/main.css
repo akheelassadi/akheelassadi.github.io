@@ -3,6 +3,10 @@
     margin: auto;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 header {
     background: #1d1d1d;

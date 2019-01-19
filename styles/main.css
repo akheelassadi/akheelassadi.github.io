@@ -77,6 +77,10 @@ header {
     vertical-align: middle;
 }
 
+#logo-container > a:hover {
+    text-decoration: none;
+}
+
 #carousel-container {
     padding-left: 34px;
 }
@@ -418,6 +422,10 @@ td {
     border-radius: 10px;
     background: transparent;
     border: solid black 2px;
+}
+
+.form-input:focus {
+    border:solid 2px black;
 }
 
 #return-to-top {

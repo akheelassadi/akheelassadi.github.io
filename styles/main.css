@@ -6,6 +6,10 @@
 
 header {
     background: #1d1d1d;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index:999;
 }
 
 .navbar {
@@ -31,6 +35,10 @@ header {
     padding: 24px 0px;
     background: url(../images/3px-tile.png);
     background-color: #000000;
+}
+
+#about .columns {
+    margin-top: 51px;
 }
 
 #unit-size {

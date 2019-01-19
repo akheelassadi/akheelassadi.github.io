@@ -14,8 +14,8 @@
     <link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossorigin="anonymous">
-        <meta name="theme-color" content="#131313">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#131313">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -367,48 +367,49 @@
         </section> -->
         <section id="contact-us">
             <div class="wrapper container">
-                    <h3 id="contact-us-title">CONTACT US</h3>
-                    <div class="columns">
-                        <div class="column col-4">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d62202.340280184515!2d77.481216!3d12.994462!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3c511026d305%3A0xd96db568e1c6776a!2sKARNATAKA+PAPER+TUBES!5e0!3m2!1sen!2sus!4v1546930032812" 
-                            width="400" height="300" frameborder="0" style="border:2px solid black" gesture="media" allow="encrypted-media" allowfullscreen>
-                            </iframe>
+                <h3 id="contact-us-title">CONTACT US</h3>
+                <div class="columns">
+                    <div class="column col-4">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d62202.340280184515!2d77.481216!3d12.994462!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3c511026d305%3A0xd96db568e1c6776a!2sKARNATAKA+PAPER+TUBES!5e0!3m2!1sen!2sus!4v1546930032812"
+                            width="400" height="300" frameborder="0" style="border:2px solid black" gesture="media"
+                            allow="encrypted-media" allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="column col-4">
+                        <div class="office-address">
+                            <h6 id="registered-office-title">REGISTERED OFFICE:</h6>
+                            <p class="office-address-font">
+                                M/S. KARNATAKA PAPER TUBES<br>
+                                #101,102,3 RD CROSS, KTG COLLEG ROAD,<br>
+                                HEGANAHALLI MAIN ROAD,<br>
+                                BANGALORE-560091<br>
+                            </p>
                         </div>
-                        <div class="column col-4">
-                            <div class="office-address">
-                                <h6 id="registered-office-title">REGISTERED OFFICE:</h6>
-                                <p class="office-address-font">
-                                    M/S. KARNATAKA PAPER TUBES<br>
-                                    #101,102,3 RD CROSS, KTG COLLEG ROAD,<br> 
-                                    HEGANAHALLI MAIN ROAD,<br>
-                                    BANGALORE-560091<br>
-                                </p>
-                            </div>
-                            <div class="office-address">
-                                    <p class="office-address-font">
-                                        M/S. KARNATAKA TRADERS<br>
-                                        #101,102,3 RD CROSS, KTG COLLEG ROAD,<br>
-                                        HEGANAHALLI MAIN ROAD,<br>
-                                        BANGALORE-560091
-                                </p>
-                                </div>
-                        </div>
-                        <div class="column col-4">
-                                <div class="form-group">
-                                    <input class="form-input" type="text" id="form-name" placeholder="Name">
-                                </div>
-                                <div class="form-group">
-                                        <input class="form-input" type="email" id="form-email" placeholder="Email">
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-input" type="text" id="form-contact" placeholder="Phone no.">
-                                </div>
-                                <div class="form-group">
-                                    <textarea class="form-input" id="form-textarea" placeholder="Your comments here" rows="3"></textarea>
-                                </div>
-                                <button class="button"><span>Submit</span></button>
+                        <div class="office-address">
+                            <p class="office-address-font">
+                                M/S. KARNATAKA TRADERS<br>
+                                #101,102,3 RD CROSS, KTG COLLEG ROAD,<br>
+                                HEGANAHALLI MAIN ROAD,<br>
+                                BANGALORE-560091
+                            </p>
                         </div>
                     </div>
+                    <div class="column col-4">
+                        <div class="form-group">
+                            <input class="form-input" type="text" id="form-name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-input" type="email" id="form-email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-input" type="text" id="form-contact" placeholder="Phone no.">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-input" id="form-textarea" placeholder="Your comments here" rows="3"></textarea>
+                        </div>
+                        <button class="button"><span>Submit</span></button>
+                    </div>
+                </div>
             </div>
         </section>
         <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
@@ -419,6 +420,7 @@
     <script type="text/javascript" src="slick/slick.min.js"></script>
 
     <script type="text/javascript">
+
         $(document).ready(function () {
             $('.carousel').slick({
                 autoplay: true,
@@ -437,18 +439,118 @@
                 arrows: true
             });
         });
-        $(window).scroll(function() {
-    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
-        $('#return-to-top').fadeIn(200);    // Fade in the arrow
-    } else {
-        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
-    }
-});
-$('#return-to-top').click(function() {      // When arrow is clicked
-    $('body,html').animate({
-        scrollTop : 0                       // Scroll to top of body
-    }, 500);
-});
+        $(window).scroll(function () {
+            if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+                $('#return-to-top').fadeIn(200);
+                // Fade in the arrow
+            } else {
+                $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+            }
+        });
+        $('#return-to-top').click(function () {      // When arrow is clicked
+            $('body,html').animate({
+                scrollTop: 0                       // Scroll to top of body
+            }, 500);
+        });
+        // $(document).on('click', 'a[href^="#"]', function(e) {
+        //     // target element id
+        //     var id = $(this).attr('href');
+
+        //     // target element
+        //     var $id = $(id);
+        //     if ($id.length === 0) {
+        //         return;
+        //     }
+
+        //     // prevent standard hash navigation (avoid blinking in IE)
+        //     e.preventDefault();
+
+        //     // top position relative to the document
+        //     var pos = $id.offset().top;
+
+        //     // animated top scrolling
+        //     $('body, html').animate({scrollTop: pos});
+        // });
+
+        (function (document, history, location) {
+            var HISTORY_SUPPORT = !!(history && history.pushState);
+
+            var anchorScrolls = {
+                ANCHOR_REGEX: /^#[^ ]+$/,
+                OFFSET_HEIGHT_PX: 50,
+
+                /**
+                 * Establish events, and fix initial scroll position if a hash is provided.
+                 */
+                init: function () {
+                    this.scrollToCurrent();
+                    window.addEventListener('hashchange', this.scrollToCurrent.bind(this));
+                    document.body.addEventListener('click', this.delegateAnchors.bind(this));
+                },
+
+                /**
+                 * Return the offset amount to deduct from the normal scroll position.
+                 * Modify as appropriate to allow for dynamic calculations
+                 */
+                getFixedOffset: function () {
+                    return this.OFFSET_HEIGHT_PX;
+                },
+
+                /**
+                 * If the provided href is an anchor which resolves to an element on the
+                 * page, scroll to it.
+                 * @param  {String} href
+                 * @return {Boolean} - Was the href an anchor.
+                 */
+                scrollIfAnchor: function (href, pushToHistory) {
+                    var match, rect, anchorOffset;
+
+                    if (!this.ANCHOR_REGEX.test(href)) {
+                        return false;
+                    }
+
+                    match = document.getElementById(href.slice(1));
+
+                    if (match) {
+                        rect = match.getBoundingClientRect();
+                        anchorOffset = window.pageYOffset + rect.top - this.getFixedOffset();
+                        window.scrollTo(window.pageXOffset, anchorOffset);
+
+                        // Add the state to history as-per normal anchor links
+                        if (HISTORY_SUPPORT && pushToHistory) {
+                            history.pushState({}, document.title, location.pathname + href);
+                        }
+                    }
+
+                    return !!match;
+                },
+
+                /**
+                 * Attempt to scroll to the current location's hash.
+                 */
+                scrollToCurrent: function () {
+                    this.scrollIfAnchor(window.location.hash);
+                },
+
+                /**
+                 * If the click event's target was an anchor, fix the scroll position.
+                 */
+                delegateAnchors: function (e) {
+                    var elem = e.target;
+
+                    if (
+                        elem.nodeName === 'A' &&
+                        this.scrollIfAnchor(elem.getAttribute('href'), true)
+                    ) {
+                        e.preventDefault();
+                    }
+                }
+            };
+
+            window.addEventListener(
+                'DOMContentLoaded', anchorScrolls.init.bind(anchorScrolls)
+            );
+        })(window.document, window.history, window.location);
     </script>
 </body>
 

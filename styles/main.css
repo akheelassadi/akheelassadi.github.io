@@ -103,8 +103,8 @@ header {
 
 #product-details {
     padding: 24px 0px;
-    background: url(../images/batthern.png);
-    background-color: #000000;
+    background: url(../images/3px-tile.png);
+    background-color: #1b1b1b;
 }
 
 #product-title {
@@ -199,8 +199,8 @@ a,a:visited {
 
 #quality-control {
     padding: 24px 0px;
-    background: url(../images/3px-tile.png);
-    background-color: #1b1b1b;
+    background: url(../images/batthern.png);
+    background-color: #000000;
 }
 
 #quality-control-title {
@@ -393,3 +393,119 @@ td {
     text-align: center;
 }
 
+#green-works {
+    padding: 24px 0px;
+    background: url(../images/shley-tree-1.png);
+    background-color: #3e3e3e;
+}
+
+#contact-us {
+    padding: 24px 0px;
+    background-color: #db882b;
+}
+
+#contact-us-title {
+    color: black;
+    padding: 12px 24px 30px 24px;
+    margin: 0px; 
+    font-family: 'Paytone One', sans-serif;
+    text-align: center;
+}
+
+.form-input {
+    width: 400px;
+    border-radius: 10px;
+    background: transparent;
+    border: solid black 2px;
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+.office-address-font {
+    font-weight: 100;
+    color: black;
+}
+
+#registered-office-title {
+    color: black;
+    font-weight: bolder;
+}
+
+.office-address {
+    color:black;
+    padding: 0 24px;
+    float: right;
+}
+
+.button {
+    border-radius: 10px;
+    background-color: #e08b2c; 
+    border: 2px solid black;
+    color: black;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 25px;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
